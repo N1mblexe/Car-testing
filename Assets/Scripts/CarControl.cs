@@ -26,7 +26,7 @@ public class CarControl : MonoBehaviour
 
         float vInput = Input.GetAxis("Vertical");
         float hInput = Input.GetAxis("Horizontal");
-
+        
         float forwardSpeed = Vector3.Dot(transform.forward, rigidBody.velocity);
 
         float speedFactor = Mathf.InverseLerp(0, maxSpeed, forwardSpeed);

@@ -1,17 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Rendering;
 
-public class Engine : MonoBehaviour
+namespace CarCore
 {
-    class EngineData
+    public class Engine : MonoBehaviour
     {
-        public string name;
-        public string description;
+        private const int idleRPM = 900;
 
-        public bool running;
+        private class EngineData
+        {
+            public string name;
+            public string description;
 
-        public int horsePower;
-        public int rpm { get => running ? rpm : -1; set => rpm = value; }
+            public bool running;
+
+            public int horsePower;
+            public int rpm { get => running ? rpm : -1; set => rpm = value; }
+
+            public EngineData(string name, string description, int rpm)
+            {
+                this.name = name;
+                this.description = description;
+                this.rpm = rpm;
+
+                this.running = false;
+            }
+        }
+
+        [SerializeField] private EngineData engineData;
+
+        public void StartEngine()
+        {
+            engineData.running = true;
+
+            engineData.rpm = idleRPM;
+        }
     }
 }
