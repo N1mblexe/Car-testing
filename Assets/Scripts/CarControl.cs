@@ -36,6 +36,11 @@ public class CarControl : MonoBehaviour
 
         bool isAccelerating = Mathf.Sign(vInput) == Mathf.Sign(forwardSpeed);
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            transform.position = new Vector3(-112.099998f, 17.2000008f, -103.199997f);
+        }
+
         foreach (var wheel in wheels)
         {
             if (wheel.steerable)
