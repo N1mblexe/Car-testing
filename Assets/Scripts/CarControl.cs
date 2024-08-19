@@ -23,7 +23,6 @@ public class CarControl : MonoBehaviour
 
     void Update()
     {
-
         float vInput = Input.GetAxis("Vertical");
         float hInput = Input.GetAxis("Horizontal");
         

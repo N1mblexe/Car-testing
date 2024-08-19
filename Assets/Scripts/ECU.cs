@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
+using System.Xml.Serialization;
 using UnityEngine;
 
 namespace CarCore
@@ -9,6 +10,9 @@ namespace CarCore
     {
         private const float centreOfGravityOffset = -1f;
 
+        /// <summary>
+        /// Stores the data of Electronic Control Unit (ECU).
+        /// </summary>
         private class ECUData
         {
             private float maxRPM;
@@ -27,11 +31,12 @@ namespace CarCore
                 this.steeringRangeAtMaxSpeed = steeringRangeAtMaxSpeed;
             }
         }
-        [SerializeField] ECUData ECUdata;
         ECU(ECUData ECUData)
         {
             this.ECUdata = ECUData;
         }
+
+        [SerializeField] ECUData ECUdata;
 
         //Initiliaze parts
         private Engine engine;
@@ -40,6 +45,7 @@ namespace CarCore
         
         private Rigidbody rb;
 
+        #region Parts
         private void InitParts()
         {
             rb = GetComponent<Rigidbody>();
@@ -49,7 +55,49 @@ namespace CarCore
             engine = GetComponent<Engine>();
             wheels = GetComponentsInChildren<WheelControl>();
             gearbox = GetComponent<Gearbox>();
+
+            if (!CheckParts())
+                Debug.Log("Failed to initiliaze parts");
         }
 
-    } 
+        private bool CheckParts()
+        {
+            return engine != null && 
+                wheels != null && 
+                gearbox != null &&
+                rb != null &&
+                ECUdata != null;
+        }
+
+        #endregion
+
+        #region ENGINE
+
+        private void PowerEngine()
+        {
+             if(!CheckParts())
+            {
+                Debug.Log("Failed to initilaze parts!!");
+                return;
+            }
+
+            if (engine.isEngineRunning())
+                engine.StopEngine();
+            else
+                engine.StartEngine();
+        }
+
+        #endregion
+
+
+        #region STEERING
+
+        #endregion
+
+
+        #region GEARBOX
+
+        #endregion
+
+    }
 }

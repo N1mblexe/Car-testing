@@ -31,12 +31,28 @@ namespace CarCore
         }
 
         [SerializeField] private EngineData engineData;
+        
+        Engine(EngineData engineData)
+        {
+            this.engineData = engineData;
+        }
+
+        public bool isEngineRunning()
+        { 
+            return engineData.running; 
+        }
 
         public void StartEngine()
         {
             engineData.running = true;
 
             engineData.rpm = idleRPM;
+        }
+
+        public void StopEngine()
+        {
+            engineData.running = false;
+            engineData.rpm = -1;
         }
     }
 }
