@@ -8527,7 +8527,7 @@ Transform:
   m_GameObject: {fileID: 440645227}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70710677, w: 0.7071068}
-  m_LocalPosition: {x: 0.35574108, y: -1.36, z: -21.915785}
+  m_LocalPosition: {x: 0.35574108, y: -1.47, z: -21.915785}
   m_LocalScale: {x: 1, y: 6, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -13299,9 +13299,9 @@ MonoBehaviour:
   m_LookAt: {fileID: 344709508}
   m_Follow: {fileID: 344709508}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 50
     OrthographicSize: 5
-    NearClipPlane: 0.3
+    NearClipPlane: 0.01
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -13325,8 +13325,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625152521}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20446251, y: -0.4628178, z: 0.11062165, w: 0.85542834}
-  m_LocalPosition: {x: -103.72949, y: 24.37, z: -108.67125}
+  m_LocalRotation: {x: 0.23246947, y: 0.000000037266666, z: -0.0000000064249317, w: 0.97260374}
+  m_LocalPosition: {x: -112.1, y: 24.37, z: -113.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18749,12 +18749,12 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 1.0722535
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
   m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
+  m_SensorSize: {x: 1, y: 1}
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -18762,9 +18762,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
-  field of view: 60
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -18790,8 +18790,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20446253, y: -0.46281782, z: 0.11062166, w: 0.85542834}
-  m_LocalPosition: {x: -103.72949, y: 24.37, z: -108.67125}
+  m_LocalRotation: {x: 0.23246948, y: 0.000000037895976, z: -0.000000009057807, w: 0.97260374}
+  m_LocalPosition: {x: -112.1, y: 24.37, z: -113.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22533,7 +22533,7 @@ Transform:
   m_GameObject: {fileID: 1125805742}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70710677, w: 0.7071068}
-  m_LocalPosition: {x: 0.35574108, y: -1.36, z: -27.165785}
+  m_LocalPosition: {x: 0.35574108, y: -1.47, z: -27.165785}
   m_LocalScale: {x: 1, y: 6, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -25533,7 +25533,7 @@ Transform:
   m_GameObject: {fileID: 1230422127}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70710677, w: 0.7071068}
-  m_LocalPosition: {x: 0.35574108, y: -1.36, z: -13.415785}
+  m_LocalPosition: {x: 0.35574108, y: -1.47, z: -13.415785}
   m_LocalScale: {x: 1, y: 6, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -47280,7 +47280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 115595451223755255, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.87952405
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 115595451223755255, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalRotation.x
@@ -47288,7 +47288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 115595451223755255, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.47585452
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 115595451223755255, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalRotation.z
@@ -47300,7 +47300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 115595451223755255, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -56.83
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 115595451223755255, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -47308,12 +47308,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2142391609614055392, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: maxSpeed
-      value: 60
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 2142391609614055392, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: motorTorque
       value: 2000
       objectReference: {fileID: 0}
+    - target: {fileID: 2142391609614055392, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
+      propertyPath: virtualCamera
+      value: 
+      objectReference: {fileID: 625152522}
     - target: {fileID: 2142391609614055392, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: centreOfGravityOffset
       value: -1
@@ -47324,19 +47328,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2150893940571263064, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.73
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2150893940571263064, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.109200135
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2150893940571263064, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5460012
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150893940571263064, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2212741297457467376, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_Radius
-      value: 2.09
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2212741297457467376, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_WheelDampingRate
@@ -47372,15 +47380,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3385977850740286005, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.73
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3385977850740286005, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.109200135
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3385977850740286005, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5460012
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3818770569930205198, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: motorized
@@ -47388,27 +47396,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4665574456604817185, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.73
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4665574456604817185, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.109200135
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4665574456604817185, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5460012
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5200148946202766508, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.73
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5200148946202766508, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.109200135
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5200148946202766508, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5460012
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5348465143725545447, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47440,7 +47448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7290929834484858188, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_Radius
-      value: 2.09
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7290929834484858188, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_WheelDampingRate
@@ -47460,11 +47468,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7290929834484858188, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_ForwardFriction.m_Stiffness
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7290929834484858188, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7290929834484858188, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionSpring.targetPosition
@@ -47480,7 +47488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7707866837963382724, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_Radius
-      value: 2.09
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7707866837963382724, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_WheelDampingRate
@@ -47520,7 +47528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8534444196674164762, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_Radius
-      value: 2.09
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8534444196674164762, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_WheelDampingRate
@@ -47540,11 +47548,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8534444196674164762, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_ForwardFriction.m_Stiffness
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8534444196674164762, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SidewaysFriction.m_Stiffness
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8534444196674164762, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionSpring.targetPosition

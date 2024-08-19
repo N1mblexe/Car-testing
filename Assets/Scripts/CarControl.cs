@@ -1,3 +1,4 @@
+using Cinemachine;
 using UnityEngine;
 
 public class CarControl : MonoBehaviour
@@ -12,6 +13,16 @@ public class CarControl : MonoBehaviour
     WheelControl[] wheels;
     Rigidbody rigidBody;
 
+    [SerializeField] CinemachineVirtualCamera virtualCamera;
+
+    float minFov = 50;
+    float maxFov = 80;
+    
+    void setFov(float speed)
+    {
+        virtualCamera.m_Lens.FieldOfView = 
+            minFov + ((maxFov - minFov)/(maxSpeed) * speed);
+    }
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
@@ -35,6 +46,8 @@ public class CarControl : MonoBehaviour
         float currentSteerRange = Mathf.Lerp(steeringRange, steeringRangeAtMaxSpeed, speedFactor);
 
         bool isAccelerating = Mathf.Sign(vInput) == Mathf.Sign(forwardSpeed);
+
+        setFov(forwardSpeed);
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
