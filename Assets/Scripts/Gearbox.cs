@@ -18,6 +18,9 @@ namespace CarCore
             reverse = -1
         }
 
+        //TODO: Bu gear ratios için bir sistem düşün
+        [SerializeField] private float[] gearRatios;        
+
         private bool automatic;
         private Gear currentGear;
 

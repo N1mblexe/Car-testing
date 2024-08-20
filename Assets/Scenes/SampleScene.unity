@@ -47352,7 +47352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2212741297457467376, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.29
+      value: 4.81
       objectReference: {fileID: 0}
     - target: {fileID: 2212741297457467376, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionSpring.damper
@@ -47456,7 +47456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7290929834484858188, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.29
+      value: 4.81
       objectReference: {fileID: 0}
     - target: {fileID: 7290929834484858188, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionSpring.damper
@@ -47496,7 +47496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7707866837963382724, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.29
+      value: 4.81
       objectReference: {fileID: 0}
     - target: {fileID: 7707866837963382724, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionSpring.damper
@@ -47536,7 +47536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8534444196674164762, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.29
+      value: 4.81
       objectReference: {fileID: 0}
     - target: {fileID: 8534444196674164762, guid: ea888b8e7a68cae499dcb1d496138318, type: 3}
       propertyPath: m_SuspensionSpring.damper
