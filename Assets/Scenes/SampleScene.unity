@@ -12240,9 +12240,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc2a2cbf208f2f54fb35038c799a64b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horsePower: 1
-  rpm: 1
-  currentGear: 0
+  horsePower: 130
+  rpm: 1000
+  currentGear: 1
   gearRatios: []
   finalDriveAxleRatio: 0
   wheelAmount: 2
